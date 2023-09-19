@@ -49,8 +49,8 @@ REST_FRAMEWORK = {
 
 SIMPLE_JWT = {
      'AUTH_HEADER_TYPES': ('JWT',), # only JWT is accepted
-    'ACCESS_TOKEN_LIFETIME': timedelta(days=14),
-    'REFRESH_TOKEN_LIFETIME': timedelta(days=14),
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=300),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=300),
     'SIGNING_KEY': '$g+=#-p&!e+a9jf*6nnrvxm%2h#bc-ji@j3lqn8jq41b2b99q#',
 }
 

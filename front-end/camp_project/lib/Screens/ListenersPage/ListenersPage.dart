@@ -103,6 +103,9 @@ class _ListenersPageState extends State<ListenersPage> {
                                   height: 320,
                                   width: double.infinity,
                                   child: GridView.builder(
+                                    shrinkWrap: true,
+                                    physics:
+                                        const NeverScrollableScrollPhysics(),
                                     itemCount: snapshot.data.length,
                                     gridDelegate:
                                         const SliverGridDelegateWithFixedCrossAxisCount(

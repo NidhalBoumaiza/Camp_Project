@@ -1,4 +1,4 @@
-#Sat Jul 08 17:27:30 WAT 2023
-base.0=D\:\\camp_project\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Tue Aug 22 16:00:17 WAT 2023
+base.0=D\:\\camp_project\\front-end\\camp_project\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
